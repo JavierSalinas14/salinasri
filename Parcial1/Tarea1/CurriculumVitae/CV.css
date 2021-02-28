@@ -1,0 +1,77 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Seoge UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica NeuHelvetica", "Arial", sans-serif;
+}
+
+/*
+*{
+    outline: 1px solid red;
+}
+*/
+
+body{
+    background: lightgrey;
+    font-family: var(--font);
+}
+
+header, section{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header{
+    align-items: center;
+    background-color:#2E3440;
+    color: white;
+}
+
+article,aside{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.NOMBRE{
+    line-height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+article{
+    background-color:white;
+    width: 30%;
+}
+
+aside{
+}
+
+ul{
+    list-style-type: disc;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    margin-right: 16px;
+}
+
+a, a:link, a:visited{
+    color:blue;
+}
