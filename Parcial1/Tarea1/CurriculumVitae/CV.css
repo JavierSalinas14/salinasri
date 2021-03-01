@@ -25,6 +25,7 @@
 }
 */
 
+
 body{
     background: lightgrey;
     font-family: var(--font);
@@ -41,6 +42,7 @@ header{
     background-color:#2E3440;
     color: white;
 }
+
 
 article,aside{
     padding-left: 10px;
@@ -59,7 +61,15 @@ article{
     width: 30%;
 }
 
-aside{
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td,th{
+    border: 2px solid black;
+    padding: 10px;
 }
 
 ul{
