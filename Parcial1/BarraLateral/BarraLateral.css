@@ -1,0 +1,177 @@
+:root {
+    --nord0: #2E3440;
+    --nord1: #3B4252;
+    --nord2: #434C5E;
+    --nord3: #4C566A;
+    --nord4: #D8DEE9;
+    --nord5: #E5E9F0;
+    --nord6: #ECEFF4;
+    --nord7: #8FBCBB;
+    --nord8: #88C0D0;
+    --nord9: #81A1C1;
+    --nord10: #5E81AC;
+    --nord11: #BF616A;
+    --nord12: #D08770;
+    --nord13: #EBCB8B;
+    --nord14: #A3BE8C;
+    --nord15: #B48EAD;
+    --font: BlinkMacSystemFont, -apple-system, "Seoge UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica NeuHelvetica", "Arial", sans-serif;
+}
+
+/*
+*{
+outline: 1px solid red;
+}
+*/
+
+body{
+    background:lightgrey;
+    font-family: var(--font);
+}
+
+section{
+    width: 100%;
+    height: 250px;
+}
+
+div{
+    float:left;
+}
+
+#Caja1{
+    background: lightgreen;
+    width: 28%;
+    height: auto;
+    padding: 1%;
+    height: 100%;
+}
+
+.menu{
+    list-style: none;
+    background: #092327;
+    padding: 0;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: red;
+}
+
+a, a:link, a:visited{
+    color:blue;
+}
+
+#Caja2{
+    background: lightblue;
+    width: 68%;
+    height: auto;
+    padding: 1%;
+    height: 100%;
+}
+
+@media (max-width: 800px) and  (min-width:401px){
+    section{
+        width: 100%;
+        height: 300px;
+    }
+    
+    #Caja1{
+        background: lightgreen;
+        width: 98%;
+        height: auto;
+        padding: 1%;
+    }
+    
+    .menu{
+        list-style: none;
+        background: #092327;
+        padding: 0;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .menu li{
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background: red;
+    }
+    
+    a, a:link, a:visited{
+        color:blue;
+    }
+
+    #Caja2{
+        background: lightblue;
+        width: 98%;
+        height: auto;
+        padding: 1%;
+    }
+    
+}
+
+@media (max-width: 400px){
+    section{
+        width: 100%;
+        height: 300px;
+    }
+    
+    #Caja1{
+        background: lightgreen;
+        width: 98%;
+        height: auto;
+        padding: 1%;
+    }
+    
+    .menu{
+        list-style: none;
+        background: #092327;
+        padding: 0;
+    }
+    
+    .menu li a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        display: block;
+    }
+    
+    .menu li{
+        text-align: center;
+    }
+    
+    .menu li a:hover{
+        background: red;
+    }
+    
+    a, a:link, a:visited{
+        color:blue;
+    }
+
+    #Caja2{
+        background: lightblue;
+        width: 98%;
+        height: auto;
+        padding: 1%;
+    }
+    
+}
