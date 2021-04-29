@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginYRegistro</title>
+    <link rel="stylesheet" href="css/estiloslogin.css">
+</head>
+<body>
+    <div class="cod-container">
+        <div class="form-header">
+            <img src="img/fotologin.gif" alt="Logo" width="100">
+            <h1>Curso de programación basica</h1>
+        </div>
+
+        <div class="form-content">
+            <form action="#" class="cod-form">
+                <div class="form-title">
+                    <h3>Iniciar Sesión</h3>
+                </div>
+
+               <div class="input-group">
+                    <input type="email" class="form-input" name="form-input" id="correo">
+                    <label class="label" for="correo">Correo electronico</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="form-input" id="contraseña">
+                    <label class="label" for="pass">Contraseña</label>
+                </div>
+
+               <div class="input-group">
+                    <input type="submit" class="form-input" value="Iniciar sesión">
+                    <p><a href="#" class="alt-form">Crear cuenta nueva</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-content">
+            <form action="#" class="cod-form">
+                <div class="form-title">
+                    <h3>Crear cuenta nueva</h3>
+                </div>
+
+               <div class="input-group">
+                    <input type="email" class="form-input" name="form-input" id="reg-correo">
+                    <label class="label" for="reg-correo">Correo</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="form-input" id="reg-pass">
+                    <label class="label" for="reg-pass">Contraseña</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="password" class="form-input" name="form-input" id="rep-pass">
+                    <label class="label" for="rep=pass">Repetir contraseña</label>
+                </div>
+
+               <div class="input-group">
+                    <input type="submit" class="form-input" value="Registrate">
+                    <p><a href="#" class="alt-form">Iniciar sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>  
+
+    <script src ="js/jquery-3.6.0.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
