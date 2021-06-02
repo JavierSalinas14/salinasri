@@ -18,7 +18,11 @@
    
    <div class="welcome">
        <img src="image/logoprogramacion.png" >
-        <h1>Bienvenido</h1>
+        <h1>Bienvenido 
+            <?php
+                echo $_SESSION['usuario'];
+            ?>
+        </h1>
         <a href="cerrar.php">Cerrar sesion</a>
    </div>
    
