@@ -190,12 +190,12 @@
                 <div class="id line-input">
                     <input type="text" name="idBorrar" placeholder = "Ingrese ID">
                 </div>
-                <button type="submit" name="eliminar" value = "Eliminar">Eliminar</button>
+                <button type="submit" name="eliminar" value = "Eliminar" onclick="return ConfirmDelete()">Eliminar</button>
             </form>
         </div>
     </div>
     <a href="cerrar.php">Cerrar sesion</a>
     </div>
-
+    <script src="js/ConfirmDel.js"></script>
 </body>
 </html>
