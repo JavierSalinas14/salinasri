@@ -13,13 +13,110 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/estilospr.css">
+    
     
     <style>
         body{
             background-image: url(image/fondo.jpg);
             height: 100%;
         }
+
+        .container{
+            width: 100%;
+            height: 80%;
+            max-width: 800px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            background: rgba(0,0,0,1);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container img{
+            width: 120px;
+            height: 120px;
+            text-align: center;
+        }
+
+        .container h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 100;
+            margin-top: 20px;
+        }
+
+        .container h4{
+            font-size: 30px;
+            color: white;
+            font-weight: 100;
+            margin-top: 20px;
+        }
+
+
+        .container form{
+            color: white;
+            text-align: left;
+        }
+
+        .container a{
+            display: block;
+            width: 50%;
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid white;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .container a:hover{
+            color: black;
+            background: white;
+        }
+
+        .line-input{
+            max-width: 350px;
+            display: flex;
+            border-bottom: 1px solid white;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 6px;
+            position: relative;
+        }
+
+
+        .line-input input{
+            background-color: black;
+            color: #898989;
+            border-style: none;
+            outline: 0px;
+            margin-left: 10px;
+            font-size: 16px;
+            width: 100%;
+            font-weight: 300;
+        }
+
+        .container button{
+            display: block;
+            margin-left: 44%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid white;
+            background: black;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .container button:hover{
+            color: black;
+            background: white;
+        }   
     </style>
 </head>
 <body>
@@ -68,11 +165,12 @@
         </tr>
         <?php } $resultado->closeCursor();?>
         </table>
-
+        
+        <br>
     <div class="form">
         <div id="Insertar">
             <form method="POST" action="Insertar.php">
-                <h4 align="center">Eliminar programador</h4>
+                <h4 align="center">Insertar programador</h4>
                 <div class="nombre line-input">
                     <input type="text" name="nombre" placeholder = "Nombre"><br />
                 </div>
@@ -85,7 +183,8 @@
 	            <button type="submit" name="insert" value = "Insertar">Insertar</button>
             </form>
         </div>
-        <div id="Eliminar"text-align="center">
+        <br>
+        <div id="Eliminar">
             <form method="POST" action="Eliminar.php">
                 <h4 align="center">Eliminar programador</h4>
                 <div class="id line-input">
@@ -95,9 +194,6 @@
             </form>
         </div>
     </div>
-    
-
-
     <a href="cerrar.php">Cerrar sesion</a>
     </div>
 
