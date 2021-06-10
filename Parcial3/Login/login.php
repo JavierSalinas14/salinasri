@@ -37,6 +37,6 @@
         }
     }
     
-require 'html/loginpag.php';
+require 'loginpag.php';
 
 ?>

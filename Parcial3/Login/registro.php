@@ -57,6 +57,6 @@
             $error .= '<i style="color: green;">Usuario registrado exitosamente</i>';
         }
     }
-    require 'html/registropag.php';
+    require 'registropag.php';
 
 ?>
