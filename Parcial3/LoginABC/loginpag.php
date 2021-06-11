@@ -10,7 +10,6 @@
 
     <script src="js/jquery.js"></script>
     
-    
     <style>
         body{
             background-image: url(image/fondo2.jpg);

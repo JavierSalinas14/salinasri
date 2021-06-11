@@ -12,7 +12,7 @@
     
     <style>
         body{
-            background-image: url(image/fondo2.jpg);
+            background-image: url(image/fondolog.jpg);
         }
     </style>
 </head>
@@ -22,7 +22,6 @@
         <div class="header">
             <div class="logo-title">
                 <img src="image/logoprogramacion.png" alt="">
-                <h2>Encuentra a tu programador</h2>
             </div>
             <div class="menu">
                 <a href="login.php"><li class="module-login">Login</li></a>
